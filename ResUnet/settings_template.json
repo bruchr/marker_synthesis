@@ -1,0 +1,25 @@
+{   
+    "name": "experiment_name",
+    
+    "path_data": "path/to/dataset",
+    "path_results": "path/to/output_runs",
+    
+    "channel_input": 1,
+    "channel_label": 0,
+
+    "architecture": "resunet",
+    "filters": [32, 64, 128, 256],
+    "order": "rb",
+
+    "shape": [32,256,256],
+
+    "optimizer": "lookahead",
+    "learning_rate": 1e-3,
+    "loss": "mse",
+    "break_condition": 20,
+    "max_epochs": 500,
+
+    "batch_size": 2,
+    "augmentation": "none",
+    "augmentation_prob": 0.8
+}
