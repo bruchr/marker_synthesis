@@ -1,18 +1,17 @@
-**/Documentation
-**/Train_Data*
-**/Results*
-**/EvaluationSoftware
-**/Test*
-**/Runs
-**/runs
-**/runs_old
+**/Documentation/
+**/Train_Data*/
+**/Results*/
+**/EvaluationSoftware/
+**/Test*/
+**/Runs/
+**/runs/
+**/runs_old/
 events.out.tfevents.*
-checkpoints
+checkpoints/
 .DS_Store
 
-**/logs
-**/results
-models/*
+**/logs/
+**/results/
 .vscode/*
 
 result*.txt
@@ -30,8 +29,6 @@ result*.txt
 *.bmp
 Resutls/*
 Settings_Correlation_Test/*
-
-model*
 
 *.bat
 *.hdf5
